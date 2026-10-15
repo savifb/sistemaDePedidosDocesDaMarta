@@ -1,0 +1,7 @@
+services:
+  app:
+    build: .
+    container_name: doceria_da_marta_app
+    ports:
+      - "8000:8000"
+    
